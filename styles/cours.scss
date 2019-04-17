@@ -1,0 +1,29 @@
+@import './components/header';
+@import './components/footer';
+
+.module{
+    width: 100%;
+    color: #D64C88;
+    &_general{
+        width: 76%;
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-between;
+        padding-top: 90px;
+        text-align: center;
+        &-image{
+            width: 200px;
+        }
+
+        &-button{
+            width: 100px;
+            height: 30px;
+            background: #D64C88;
+            margin: 0 auto;
+            border-radius: 20px;
+            &-text{
+                padding-top: 6px;
+            }
+        }
+    }
+}

@@ -1,0 +1,108 @@
+@import './components/header';
+@import './components/footer';
+
+.pres{
+    display: flex;
+    margin-top: 90px;
+    &_who{
+        display: flex;
+        margin-left: 30px;
+        &-pic{
+            width: 503px;
+            height: 240px;
+        }
+    }
+    &_guess{
+        text-align: left;
+        width: 800px;
+        margin-left: 70px;
+        &-title{
+            color: #D64C88;
+            font-size: 20px;
+        }
+        &-text{
+            font-size: 16px;
+            color: #3C3C3C;
+            opacity: 0.9;
+        }
+    }
+}
+
+.join{
+    width: 100%;
+    display: flex;
+    &_us{
+        width: 40%;
+        margin-left: 30px;
+        margin-top: 90px;
+    &-title{
+        color: #D64C88;
+        font-size: 20px;
+    }
+    &-text{
+        font-size: 16px;
+        color: #3C3C3C;
+        opacity: 0.9;
+    }
+}
+&_admiss{
+    width: 30%;
+    margin-left: 300px;
+    margin-top: 80px;
+    &-title{
+        color: #3C3C3C;
+        opacity: 0.9;
+        font-size: 20px;
+    }
+    &-img{
+        width: 260px;
+        height: 226px;
+        margin-left: 18px;
+    }
+    &-button{
+        width: 310px;
+        height: 70px;
+        background: #D64C88;
+        border-radius: 30px;
+        text-align: center;
+        &-name{
+            padding-top: 18px;
+            color: white;
+        }
+    }
+}
+}
+
+
+.process{
+    width: 593px;
+    margin-left: 30px;
+    &-title{
+        font-size: 20px;
+        color: #D64C88;
+    }
+    &-contenu{
+        font-size: 16px;
+        color: #3C3C3C;
+        opacity: 0.9;
+    }
+}
+
+
+.pics{
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    &-zone{
+        padding: 30px;
+        &-title{
+            color: #D64C88;
+            font-size: 20px;
+        }
+        &-img{
+            width: 500px;
+        }
+    }
+}

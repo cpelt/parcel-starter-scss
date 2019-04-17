@@ -1,0 +1,64 @@
+@import './components/header';
+@import './components/footer';
+
+.presentation{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin: 0 auto;
+    color: #D64C88;
+    padding-top: 10px;
+    &-special{
+        border-bottom: solid 2px #D64C88;
+    }
+}
+
+.presentation-autre{
+    display: flex;
+        justify-content: center;
+    padding-top: 20px;
+    &-search{
+        width: 300px;
+        height: 40px;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+.module{
+    width: 100%;
+    color: #D64C88;
+    text-align: center;
+    &_general{
+        width: 90%;
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-between;
+        padding-top: 90px;
+        &-image{
+            width: 200px;
+        }
+
+        &-button{
+            width: 100px;
+            height: 30px;
+            background: #D64C88;
+            border-radius: 20px;
+            margin: 0 auto;
+            &-text{
+                padding-top: 6px;
+            }
+        }
+    }
+}
+
+.rectif{
+    width: 325px;
+}

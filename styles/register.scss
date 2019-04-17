@@ -1,0 +1,60 @@
+@import './components/header';
+@import './components/footer';
+
+
+.back{
+    position: relative;
+    &_img{
+        position: absolute;
+        top: 32px;
+        left: 80px;
+        width: 60px;
+    }
+}
+
+.content {
+    display: flex;
+    text-align: center;
+    margin-top: 40px;
+
+    &_title {
+        width: 190px;
+        height: 40px;
+        border: solid 2px #D64C88;
+        color: #D64C88;
+        margin: 0 auto;
+        font-size: 30px;
+        font-weight: lighter;
+    }
+}
+
+.informations {
+    margin-left: 460px;
+    margin-top: 110px;
+
+    &_content {
+        &-name {
+            border-bottom: solid 1px black;
+            width: 400px;
+            color: #3C3C3C;
+            opacity: 0.9;
+            font-size: 20px;
+        }
+    }
+}
+
+.button {
+    margin: 85px auto;
+    width: 200px;
+    height: 40px;
+    background: #D64C88;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+    &-next{
+        padding-top: 7px;
+        color: white;
+        font-weight: lighter;
+        font-size: 20px;
+    }
+}
